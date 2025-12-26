@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Max Verstappen | F1 Champion</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    body {
+      background-color: #0b0b0b;
+      color: #ffffff;
+      line-height: 1.6;
+    }
+
+    header {
+      height: 100vh;
+      background: linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.85)),
+        url('https://fueler.store/cdn/shop/articles/max-verstappen-career-titles-and-records-fuelertm_4c6cb41a-f258-4d85-b56f-6f1bd4ec4924.webp?v=1759248361');
+      background-size: cover;
+      background-position: center top;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 4rem;
+      color: #e10600;
+    }
+
+    header p {
+      font-size: 1.3rem;
+      margin-top: 10px;
+      letter-spacing: 1px;
+    }
+
+    nav {
+      position: fixed;
+      top: 0;
+      width: 100%;
+      background: rgba(0,0,0,0.85);
+      padding: 15px 40px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      z-index: 1000;
+    }
+
+    nav h2 {
+      color: #e10600;
+      font-size: 1.5rem;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 25px;
+    }
+
+    nav ul li a {
+      text-decoration: none;
+      color: #ffffff;
+      font-weight: bold;
+      transition: color 0.3s;
+    }
+
+    nav ul li a:hover {
+      color: #e10600;
+    }
+
+    section {
+      padding: 80px 12%;
+    }
+
+    .about {
+      background-color: #111;
+    }
+
+    .about h2,
+    .career h2,
+    .stats h2 {
+      color: #e10600;
+      margin-bottom: 20px;
+      font-size: 2.2rem;
+    }
+
+    .about p {
+      max-width: 800px;
+      font-size: 1.1rem;
+      margin-bottom: 30px;
+    }
+
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 25px;
+      margin-top: 40px;
+    }
+
+    .gallery img {
+      width: 100%;
+      height: auto;              /* let image decide height */
+      object-fit: contain;       /* NO cropping */
+      background: #000;          /* fills empty space nicely */
+      border-radius: 12px;
+      box-shadow: 0 0 25px rgba(225,6,0,0.35);
+      transition: transform 0.3s ease;
+    }
+    .gallery img:hover {
+      transform: scale(1.05);
+    }
+
+    .career {
+      background-color: #0b0b0b;
+    }
+
+    .timeline {
+      max-width: 900px;
+      border-left: 3px solid #e10600;
+      padding-left: 30px;
+    }
+
+    .event {
+      margin-bottom: 40px;
+    }
+
+    .event h3 {
+      color: #ffffff;
+      margin-bottom: 5px;
+    }
+
+    .event span {
+      color: #e10600;
+      font-weight: bold;
+    }
+
+    .stats {
+      background-color: #111;
+      text-align: center;
+    }
+
+    .stat-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 30px;
+      margin-top: 40px;
+    }
+
+    .stat-box {
+      background: #0b0b0b;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 0 20px rgba(225,6,0,0.3);
+    }
+
+    .stat-box h3 {
+      font-size: 2.5rem;
+      color: #e10600;
+    }
+
+    .stat-box p {
+      margin-top: 10px;
+      font-size: 1.1rem;
+    }
+
+    footer {
+      background: #000;
+      padding: 20px;
+      text-align: center;
+      font-size: 0.9rem;
+      color: #aaa;
+    }
+
+    footer span {
+      color: #e10600;
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <h2>MV33</h2>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#career">Career</a></li>
+      <li><a href="#stats">Stats</a></li>
+    </ul>
+  </nav>
+
+  <header id="home">
+    <div>
+      <h1>Max Verstappen</h1>
+      <p>Formula 1 World Champion · Red Bull Racing</p>
+    </div>
+  </header>
+
+  <section class="about" id="about">
+    <h2>About Max</h2>
+    <p>
+      Max Verstappen entered Formula 1 at just 17 and quickly proved he was special. His fearless driving made him the sport’s youngest race winner in 2016 and set him apart as a true wheel-to-wheel racer.
+
+      After maturing into a dominant force, Verstappen claimed his first world title in 2021 and went on to become the defining driver of his generation, combining raw speed, consistency, and relentless ambition.
+    </p>
+      <div class="gallery">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSypHLRjgLMWsMBDTNIT-vjgWtFTIS6sQaPew&s" alt="Max Verstappen Red Bull car" />
+      <img src="https://media.formula1.com/image/upload/t_16by9North/c_lfill,w_3392/q_auto/v1740000000/trackside-images/2025/F1_Grand_Prix_of_Abu_Dhabi___Qualifying/2250278523.webp" alt="Max Verstappen" />
+    </div>
+  </section>
+
+  <section class="career" id="career">
+  <h2>Career Highlights</h2>
+  <div class="timeline">
+
+    <div class="event">
+      <span>1997</span>
+      <h3>Born</h3>
+      <p>Born in Hasselt, Belgium, into a motorsport family.</p>
+    </div>
+
+    <div class="event">
+      <span>2005–2014</span>
+      <h3>Karting Dominance</h3>
+      <p>Multiple world and European karting titles establish him as a prodigy.</p>
+    </div>
+
+    <div class="event">
+      <span>2015</span>
+      <h3>F1 Debut with Toro Rosso</h3>
+      <p>Becomes the youngest driver to start a Formula 1 race at just 17.</p>
+    </div>
+
+    <div class="event">
+      <span>2016</span>
+      <h3>First Win – Spanish Grand Prix</h3>
+      <p>Wins on debut for Red Bull Racing, becoming F1’s youngest race winner.</p>
+    </div>
+
+    <div class="event">
+      <span>2017–2020</span>
+      <h3>Red Bull Lead Driver</h3>
+      <p>Establishes himself as Red Bull’s number one with consistent wins and podiums.</p>
+    </div>
+
+    <div class="event">
+      <span>2021</span>
+      <h3>First World Championship</h3>
+      <p>Claims his maiden title after a legendary season finale.</p>
+    </div>
+
+    <div class="event">
+      <span>2022</span>
+      <h3>Title Defense</h3>
+      <p>Dominant championship win, sealing the title early.</p>
+    </div>
+
+    <div class="event">
+      <span>2023</span>
+      <h3>Record-Breaking Season</h3>
+      <p>Wins 19 races in 23 Grands Prix, the most in F1 history.</p>
+    </div>
+
+    <div class="event">
+      <span>2024</span>
+      <h3>Fourth World Championship</h3>
+      <p>Secures another title despite increased competition.</p>
+    </div>
+
+    <div class="event">
+      <span>2025</span>
+      <h3>Narrow Title Miss</h3>
+      <p>Finishes just two points short of a fifth championship after a late comeback.</p>
+    </div>
+
+  </div>
+  </section>
+
+  <section class="stats" id="stats">
+    <h2>Career Stats</h2>
+    <div class="stat-grid">
+      <div class="stat-box">
+        <h3>71</h3>
+        <p>Race Wins</p>
+      </div>
+      <div class="stat-box">
+        <h3>4</h3>
+        <p>World Championships</p>
+      </div>
+      <div class="stat-box">
+        <h3>48</h3>
+        <p>Pole Positions</p>
+      </div>
+      <div class="stat-box">
+        <h3>127</h3>
+        <p>Podium Finishes</p>
+      </div>
+      <div class="stat-box">
+        <h3>19</h3>
+        <p>Most wins in a season</p>
+      </div>
+      <div class="stat-box">
+        <h3>3444.5</h3>
+        <p>Career Points</p>
+      </div>
+      <div class="stat-box">
+        <h3>36</h3>
+        <p>Fastest Laps</p>
+      </div>
+      <div class="stat-box">
+        <h3>233</h3>
+        <p>Starts</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>Vinnovate-IT selections <span>Max Verstappen</span></p>
+  </footer>
+
+</body>
+</html>
